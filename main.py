@@ -21,13 +21,13 @@ time.sleep(5)
 
 ele = driver.find_element_by_id("identifierId")
 
-ele.send_keys("18bce014@nirmauni.ac.in")
+ele.send_keys("<Your Email>")
 
 driver.find_element_by_css_selector("#identifierNext > div > button").click()
 time.sleep(5)
 ele1 = driver.find_element_by_css_selector("#password > div.aCsJod.oJeWuf > div > div.Xb9hP > input")
 
-ele1.send_keys("159632478anik")
+ele1.send_keys("<password>")
 
 driver.find_element_by_css_selector("#passwordNext > div > button").click()
 time.sleep(10)
